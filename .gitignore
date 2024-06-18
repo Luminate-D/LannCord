@@ -1,0 +1,5 @@
+/node_modules/
+/static/js/bundle.js
+/build/
+/yarn-error.log
+/.idea

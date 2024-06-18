@@ -1,7 +1,7 @@
 import {
-    Color,
     bgRedBright,
     blueBright,
+    Color,
     cyanBright,
     greenBright,
     magentaBright,

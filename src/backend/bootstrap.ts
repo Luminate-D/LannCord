@@ -1,11 +1,10 @@
 import 'reflect-metadata';
 import 'source-map-support/register';
-
-const startupTime = process.hrtime.bigint();
-
 import { App } from './app';
 import { Kernel } from './kernel';
 import { getLogger } from './logger/logger';
+
+const startupTime = process.hrtime.bigint();
 
 const logger = getLogger('Bootstrap');
 void (async () => {
